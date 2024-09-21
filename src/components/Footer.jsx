@@ -22,7 +22,7 @@ function Footer() {
               <p className="text-sm">
                 &copy; 2024 Your Company. All rights reserved.
               </p>
-              
+             
             </div>
           </div>
         </div>
