@@ -1,5 +1,5 @@
 import React from "react";
-import c from "../../public/c++.png";
+import java from "../../public/.png";
 import python from "../../public/python.webp";
 import mongoDB from "../../public/mongodb.jpg";
 import express from "../../public/express.png";
@@ -36,8 +36,8 @@ function PortFolio() {
     },
     {
       id: 6,
-      logo: c,
-      name: "C",
+      logo: java,
+      name: "Java",
     },
   ];
   return (
