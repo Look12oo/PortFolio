@@ -17,10 +17,14 @@ import { ReactTyped } from "react-typed";
 function Home() {
   return (
     <>
+    <div className=" px-6 py-4 space-x-3 justify-around">
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
+                  Video
+                </button>
+    </div>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
-      >
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
