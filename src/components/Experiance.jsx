@@ -6,6 +6,7 @@ import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
 import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
+import C from "../../public/C.png";
 
 function Experiance() {
   const cardItem = [
@@ -45,10 +46,11 @@ function Experiance() {
       name: "Spring Boot",
     },
     {
-      id: 7,
-      logo: c++,
+      id: 8,
+      logo: C,
       name: "C++",
     },
+
   ];
   return (
     <div

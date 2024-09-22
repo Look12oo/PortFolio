@@ -4,7 +4,10 @@ import python from "../../public/python.webp";
 import mongoDB from "../../public/mongodb.jpg";
 import express from "../../public/express.png";
 import reactjs from "../../public/reactjs.png";
-import nodejs from "../../public/node.png";
+import nodejs from "../../public/nodejs.png";
+
+
+
 
 
 function PortFolio() {
@@ -39,6 +42,7 @@ function PortFolio() {
       logo: java,
       name: "Java",
     },
+
   ];
   return (
     <div
