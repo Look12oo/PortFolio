@@ -17,11 +17,6 @@ import { ReactTyped } from "react-typed";
 function Home() {
   return (
     <>
-    <div className=" px-6 py-4 space-x-3 justify-around">
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                  Video
-                </button>
-    </div>
       <div
         name="Home"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28">
