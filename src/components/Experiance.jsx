@@ -3,10 +3,12 @@ import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
 import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
+import tcss from "../../public/tcss.png";
 import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
 import C from "../../public/C.png";
+import Bootstrap from "../../public/Bootstrap.png";
+
 
 function Experiance() {
   const cardItem = [
@@ -32,8 +34,8 @@ function Experiance() {
     },
     {
       id: 5,
-      logo: oracle,
-      name: "Oracle",
+      logo: tcss,
+      name: "Tailwind CSS",
     },
     {
       id: 6,
@@ -49,6 +51,11 @@ function Experiance() {
       id: 8,
       logo: C,
       name: "C++",
+    },
+    {
+      id: 9,
+      logo: Bootstrap,
+      name: "Bootstrap",
     },
 
   ];
