@@ -36,11 +36,17 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            <div className="flex space-x-1 text-2xl md:text-4xl">
+              <h1>Best In</h1>
+              {/* <span >Developer</span> */}
+              <ReactTyped
+                className="text-violet-900 font-bold"
+                strings={["C++", "HTML5", "CSS", "JavaScript",]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop={true}
+              />
+            </div>
             </p>
             <br />
             {/* social media icons */}
